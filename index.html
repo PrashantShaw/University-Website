@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">     <!--3 lines from there are copied from google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> <!--for menu and cross icon used in phone compatibility-->
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="HideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>Making Website is now one of the easienst thing in the world. You just need to learn HTML, CSS, <br>JavaScript and you are good to go.</p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+
+    </section>
+
+    <!--COURSE-------------------------------------------------------  -->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Education courses are designed for individuals seeking to enhance their professional credentials in the field of education.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Being or occurring at the middle place, stage, or degree or between extremes the remaining subjects progressed to some intermediate stage of disease</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Being or occurring at the middle place, stage, or degree or between extremes the remaining subjects progressed to some intermediate stage of disease</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Being or occurring at the middle place, stage, or degree or between extremes the remaining subjects progressed to some intermediate stage of disease</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CAMPUS------------------------------------------------------ -->
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Education courses are designed for individuals seeking to enhance their professional credentials in the field of education.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="img/london.png">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="img/newyork.png">
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="img/washington.png">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- FACILITIES-------------------------------------------------- -->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Education courses are designed for individuals seeking to enhance their professional credentials in the field of education.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="img/library.png">
+                <h3>World Class Library</h3>
+                <p>Being or occurring at the middle place, stage, or degree or between extremes the remaining subjects progressed to some intermediate stage of disease</p></p>
+            </div>
+            <div class="facilities-col">
+                <img src="img/basketball.png">
+                <h3>Largest Play Ground</h3>
+                <p>Being or occurring at the middle place, stage, or degree or between extremes the remaining subjects progressed to some intermediate stage of disease</p></p>
+            </div>
+            <div class="facilities-col">
+                <img src="img/cafeteria.png">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Being or occurring at the middle place, stage, or degree or between extremes the remaining subjects progressed to some intermediate stage of disease</p></p>
+            </div>
+        </div>
+    </section>
+    <!-- TESTIMONIALS----------------------------------------------------- -->
+    <section class="testimonials">
+        <h1>What Our Student Says</h1>
+        <p>Being or occurring at the middle place, stage, or degree  subjects progressed to some intermediate stage of disease</p>
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="img/user1.jpg">
+                <div>
+                    <p>Being or occurring at the middle place, stage, or  to some intermediate stage of  stage, or degree or between extremes the remaining subjects progressed to some intermediate stage of disease.</p>
+                    <h3>Christiane Barkley</h3>
+                    <h2>★★★★☆</h2>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="img/user2.jpg">
+                <div>
+                    <p>Occurring at the middle place, stage, or degree or  stage of disease Being or occurring at the or degree or between extremes the remaining subjects progressed to some intermediate stage of disease.</p>
+                    <h3>David Byer</h3>
+                    <h2>★★★★★</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CALL TO ACTION--------------------------------------------------- -->
+    <!-- <h1>Enroll For Our Various Online Courses<br>Anywhere From The World</h1>
+    <a href="">CONTACT US</a> -->
+
+
+    <!-- ---------------------JavaScript----------------------------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function ShowMenu(){
+            navLinks.style.right = "0";
+        }
+        function HideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    <!-- -------------------------------------------------------------- -->
+</body>
+</html>
