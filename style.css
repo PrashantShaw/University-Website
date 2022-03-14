@@ -1,3 +1,5 @@
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
 /* star used means its for all html components */
 *{                
     margin: 0;
@@ -288,4 +290,52 @@ nav .fa{           /*to hide 'menu bars' and 'close' icons from full screen*/
         margin-left: 0;
         margin-right: 10px;
     }
+}
+/* CALL TO ACTION--------------------------------------------------- */
+.cta{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.cta h1{
+    color: white;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+@media(max-width: 700px){
+    .cta h1{
+        font-size: 24px;
+    }
+}
+
+/* FOOTER----------------------------------------------------------- */
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600; 
+
+}
+.footer p{
+    padding-bottom: 20px;
+    color: grey;
+}
+.icons .fa-brands{
+    color: rgb(255, 28, 28);
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.fa-regular{
+    color: rgb(255, 176, 176);
 }
